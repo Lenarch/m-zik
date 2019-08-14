@@ -11,7 +11,7 @@ const youtube = new YouTube(GOOGLE_API_KEY);
 const ytdl = require('ytdl-core');
 
 let prefix = "!";//botun ön eki 
-let owner = "";// sizin id'niz
+let owner = "332060005782126592";// sizin id'niz
 
 bot.on("ready", guild => {
     bot.user.setActivity('Video Bot :)', { type: 'LISTENING'  })
